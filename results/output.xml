@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.0 on win32)" generated="20191029 06:55:38.791" rpa="false">
+<suite id="s1" name="TEstSitePractice" source="C:\RobotFramework\tests\TEstSitePractice.robot">
+<kw name="Texto Passei Suite Setup" library="Resource" type="setup">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Passei no Suite Setup</arg>
+</arguments>
+<msg timestamp="20191029 06:55:38.883" level="INFO">Passei no Suite Setup</msg>
+<status status="PASS" starttime="20191029 06:55:38.883" endtime="20191029 06:55:38.884"></status>
+</kw>
+<status status="PASS" starttime="20191029 06:55:38.882" endtime="20191029 06:55:38.884"></status>
+</kw>
+<test id="s1-t1" name="Cenário 01: Pesquisar Produtos Existentes">
+<kw name="Setup específico" library="Resource" type="setup">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Passei no Setup específico</arg>
+</arguments>
+<msg timestamp="20191029 06:55:38.887" level="INFO">Passei no Setup específico</msg>
+<status status="PASS" starttime="20191029 06:55:38.886" endtime="20191029 06:55:38.887"></status>
+</kw>
+<status status="PASS" starttime="20191029 06:55:38.886" endtime="20191029 06:55:38.887"></status>
+</kw>
+<kw name="Dado que estou na página home do site" library="Resource">
+<kw name="Go to ${URL}">
+<msg timestamp="20191029 06:55:38.893" level="FAIL">No keyword with name 'Go to ${URL}' found.</msg>
+<status status="FAIL" starttime="20191029 06:55:38.892" endtime="20191029 06:55:38.893"></status>
+</kw>
+<status status="FAIL" starttime="20191029 06:55:38.888" endtime="20191029 06:55:38.893"></status>
+</kw>
+<kw name="Teardown específico" library="Resource" type="teardown">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Passei no Teardown específico</arg>
+</arguments>
+<msg timestamp="20191029 06:55:38.895" level="INFO">Passei no Teardown específico</msg>
+<status status="PASS" starttime="20191029 06:55:38.895" endtime="20191029 06:55:38.895"></status>
+</kw>
+<status status="PASS" starttime="20191029 06:55:38.894" endtime="20191029 06:55:38.895"></status>
+</kw>
+<status status="FAIL" starttime="20191029 06:55:38.884" endtime="20191029 06:55:38.896" critical="yes">No keyword with name 'Go to ${URL}' found.</status>
+</test>
+<kw name="Texto Passei Suite Teardown" library="Resource" type="teardown">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Passei no Suite Teardown</arg>
+</arguments>
+<msg timestamp="20191029 06:55:38.901" level="INFO">Passei no Suite Teardown</msg>
+<status status="PASS" starttime="20191029 06:55:38.900" endtime="20191029 06:55:38.901"></status>
+</kw>
+<status status="PASS" starttime="20191029 06:55:38.900" endtime="20191029 06:55:38.901"></status>
+</kw>
+<status status="FAIL" starttime="20191029 06:55:38.794" endtime="20191029 06:55:38.901"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="TEstSitePractice">TEstSitePractice</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20191029 06:55:38.859" level="ERROR">Error in file 'C:\RobotFramework\tests\TEstSitePractice.robot': Importing test library 'Selenium' failed: ModuleNotFoundError: No module named 'Selenium'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\fazio\AppData\Local\Programs\Python\Python38-32\Scripts\robot.exe
+  c:\users\fazio\appdata\local\programs\python\python38-32\python38.zip
+  c:\users\fazio\appdata\local\programs\python\python38-32\DLLs
+  c:\users\fazio\appdata\local\programs\python\python38-32\lib
+  c:\users\fazio\appdata\local\programs\python\python38-32
+  c:\users\fazio\appdata\local\programs\python\python38-32\lib\site-packages</msg>
+<msg timestamp="20191029 06:55:38.875" level="ERROR">Error in file 'C:\RobotFramework\resource\Resource.robot': Importing test library 'seleniumlibrary' failed: ModuleNotFoundError: No module named 'seleniumlibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\fazio\AppData\Local\Programs\Python\Python38-32\Scripts\robot.exe
+  c:\users\fazio\appdata\local\programs\python\python38-32\python38.zip
+  c:\users\fazio\appdata\local\programs\python\python38-32\DLLs
+  c:\users\fazio\appdata\local\programs\python\python38-32\lib
+  c:\users\fazio\appdata\local\programs\python\python38-32
+  c:\users\fazio\appdata\local\programs\python\python38-32\lib\site-packages</msg>
+</errors>
+</robot>
